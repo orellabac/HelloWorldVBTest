@@ -1,0 +1,20 @@
+.TestProject_Form1 {
+    left: -1px;
+    top: -1px;
+}
+.TestProject_Form1 .Form1 {
+    width: 254px;
+    height: 194px;
+    overflow: hidden;
+}
+.TestProject_Form1 .Button1 {
+    left: 85px;
+    top: 82px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

@@ -1,0 +1,9 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="Form1" class="TestProjectHelloWorld_Form1">
+        <ng-template let-model>
+            <div class="Form1">
+                <wm-button id="Button1" [model]="model.Button1" class="Button1" tabindex="1"></wm-button>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

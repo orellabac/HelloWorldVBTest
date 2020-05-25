@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+    <AssemblyName>MyHelpersNet461</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
+      <PackageReference Include="Mobilize.Extensions.Logging.RollingFile" Version="2.1.1-rc0027" />
+      <PackageReference Include="Mobilize.WebMap.CoreServices.All" Version="6.0.0-rc.110" />
+      <PackageReference Include="Mobilize.Web.BundleBasic.All" Version="5.0.6-rc0024" />
+      <PackageReference Include="Mobilize.VBUC.Helpers.All" Version="8.1.2-rc0876" />
+      <PackageReference Include="Mobilize.Weaving.WebMapExtensions.All" Version="6.0.0-rc.101" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+      <PackageReference Include="System.Data.Odbc" Version="4.5.0" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.111" />
+    </ItemGroup>
+    <ItemGroup>
+	   <Compile Remove="..\Stubs\**" />
+       <Content Remove="..\Stubs\**" />
+	   <EmbeddedResource Remove="..\Stubs\**" />
+	   <None Remove="..\Stubs\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Properties\" />
+    </ItemGroup>
+</Project>
+

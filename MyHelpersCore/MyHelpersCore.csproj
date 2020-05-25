@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\MyHelpersNet461\ApplicationBase.cs" Link="ApplicationBase.cs" />
+    <Compile Include="..\MyHelpersNet461\AuthenticationMode.cs" Link="AuthenticationMode.cs" />
+    <Compile Include="..\MyHelpersNet461\MyComputer.cs" Link="MyComputer.cs" />
+    <Compile Include="..\MyHelpersNet461\MyForms.cs" Link="MyForms.cs" />
+    <Compile Include="..\MyHelpersNet461\MyProject.cs" Link="MyProject.cs" />
+    <Compile Include="..\MyHelpersNet461\MyWebServices.cs" Link="MyWebServices.cs" />
+    <Compile Include="..\MyHelpersNet461\NetworkAvailableEventArgs.cs" Link="NetworkAvailableEventArgs.cs" />
+    <Compile Include="..\MyHelpersNet461\ShutdownMode.cs" Link="ShutdownMode.cs" />
+    <Compile Include="..\MyHelpersNet461\StartupEventArgs.cs" Link="StartupEventArgs.cs" />
+    <Compile Include="..\MyHelpersNet461\StartupNextInstanceEventArgs.cs" Link="StartupNextInstanceEventArgs.cs" />
+    <Compile Include="..\MyHelpersNet461\WindowsFormsApplicationBase.cs" Link="WindowsFormsApplicationBase.cs" />
+  </ItemGroup>
+
+</Project>

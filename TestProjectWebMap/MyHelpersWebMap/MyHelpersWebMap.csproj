@@ -3,11 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
-    <AssemblyName>MyHelpersNet461</AssemblyName>
+    <AssemblyName>MyHelpersWebMap</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>7.3</LangVersion>
   </PropertyGroup>
     <ItemGroup>
+
       <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
@@ -22,6 +23,8 @@
       <PackageReference Include="System.Data.Odbc" Version="4.5.0" />
       <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
       <PackageReference Include="System.Data.SQLite" Version="1.0.111" />
+ 
+
     </ItemGroup>
     <ItemGroup>
 	   <Compile Remove="..\Stubs\**" />

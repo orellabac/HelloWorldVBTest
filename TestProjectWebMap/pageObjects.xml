@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<SoftwareSystemPageObjects SoftwareSystemName="TestProject" Platform="CSharp">
-  <project projectId="TestProject">
-    <pageobject id="TestProjectHelloWorld.Form1" name="Form1" type="html" width="254px" height="194px" overflow="hidden">
-      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="Button1" text="@&quot;Hello world!" left="85px" top="82px" width="75px" height="23px" position="absolute" />
-    </pageobject>
-  </project>
-</SoftwareSystemPageObjects>
